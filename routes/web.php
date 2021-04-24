@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//ユーザー登録
+route::get('signup', 'Auth\RegisterController@showRegistrationFrom')->name('signup.get');
+route::post('signup', 'Auth\RegisterController@register')->name('signup.post');
