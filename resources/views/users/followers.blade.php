@@ -13,4 +13,4 @@
             @include('users.users')
         </div>
     </div>
-@endsections
+@endsection
