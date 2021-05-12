@@ -15,7 +15,6 @@
             @endif
             {{-- 投稿一覧 --}}
             @include('microposts.microposts')
-            @include('user_favorite.favorite_button')
         </div>
     </div>
 @endsection
